@@ -52,8 +52,9 @@ body {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
+
 }
 
-.apresentacao__imagem img {
+img {
   max-width: 100%;
 }

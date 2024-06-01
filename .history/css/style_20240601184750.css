@@ -12,7 +12,7 @@ body {
 }
 
 .apresentacao {
-  margin: 10% 12%;
+  margin: 10% 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   display:flex;
   flex-direction: column;
   width: 615px;
-  gap: 40px;
+  column-gap: 40pxs;
 }
 
 .apresentacao__titulo {
@@ -52,8 +52,9 @@ body {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
+
 }
 
-.apresentacao__imagem img {
+img {
   max-width: 100%;
 }

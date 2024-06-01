@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #f6f6f6;
+  background-color: #000;
+  font-size: 1.6rem;
+  height: 100vh;
+}
+
+.titulo-destaque {
+  color: #22d4fd;
+}
+
+.apresentacao {
+  margin: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+}
+
+.apresentacao__titulo {
+  font-size: 3.6rem;
+}
+
+.apresentacao__texto {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+}
