@@ -1,44 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-:root {
-  --cor-primaria: #000;
-  --cor-secundaria: #f6f6f6;
-  --cor-terciaria: #22d4fd;
-  --cor-hover: #272727;
-
-  --fonte-primaria: 'Krona One', sans-serif;
-  --font-secundaria: 'Montserrat', sans-serif;
-}
-
 html {
   font-size: 62.5%;
 }
 
 body {
-  color: var(--cor-secundaria);
-  background-color: var(--cor-primaria);
+  color: #f6f6f6;
+  background-color: #000;
   font-size: 1.6rem;
 }
 
-.cabecalho {
-  padding: 2% 0 0 12%;
-}
-
-.cabecalho__menu {
-  display: flex;
-  column-gap: 80px;
-}
-
-.cabecalho__link {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--cor-terciaria);
-}
-
 .apresentacao {
-  padding: 5% 12%;
+  padding: 8% 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,19 +25,19 @@ body {
 }
 
 .apresentacao__titulo {
-  color: var(--cor-terciaria);
-  font-family: var(--fonte-primaria);
+  color: #22d4fd;
+  font-family: 'Krona One', sans-serif;
   font-size: 3.6rem;
 }
 
 .apresentacao__subtitulo{
-  font-family: var(--fonte-primaria);
+  font-family: 'Krona One', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
 }
 
 .apresentacao__texto {
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
 }
 
@@ -80,9 +53,9 @@ body {
   display:flex;
   justify-content: center;
   column-gap: 8px;
-  color: var(--cor-primaria);
-  background-color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
+  color: #000;
+  background-color: #22d4fd;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 600;
   padding: 21.5px 0;
@@ -93,14 +66,14 @@ body {
 }
 
 .apresentacao__link--transparente {
-  color: var(--cor-secundaria);
+  color: #f6f6f6;
   background-color: transparent;
-  border: 2px solid var(--cor-terciaria);
+  border: 2px solid #22d4fd;
   transition: all .5s ease-in-out;
 }
 
 .apresentacao__link--transparente:hover {
-  background-color: var(--cor-hover)
+  background-color: #272727;
 }
 
 .apresentacao__link--transparente .fa-brands {
@@ -108,19 +81,20 @@ body {
 }
 
 .apresentacao__link--transparente:hover .fa-brands {
-  color: var(--cor-terciaria);
+  color: #22d4fd;
 }
 
 .apresentacao__imagem img {
   max-width: 100%;
 }
 
+
 .rodape {
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
-  color: var(--cor-primaria);
-  background-color: var(--cor-terciaria);
+  color: #000;
+  background-color: #22d4fd;
   padding: 24px;
   text-align: center;
 }

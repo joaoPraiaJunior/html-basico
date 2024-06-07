@@ -5,9 +5,6 @@
   --cor-secundaria: #f6f6f6;
   --cor-terciaria: #22d4fd;
   --cor-hover: #272727;
-
-  --fonte-primaria: 'Krona One', sans-serif;
-  --font-secundaria: 'Montserrat', sans-serif;
 }
 
 html {
@@ -53,18 +50,18 @@ body {
 
 .apresentacao__titulo {
   color: var(--cor-terciaria);
-  font-family: var(--fonte-primaria);
+  font-family: 'Krona One', sans-serif;
   font-size: 3.6rem;
 }
 
 .apresentacao__subtitulo{
-  font-family: var(--fonte-primaria);
+  font-family: 'Krona One', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
 }
 
 .apresentacao__texto {
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
 }
 
@@ -82,7 +79,7 @@ body {
   column-gap: 8px;
   color: var(--cor-primaria);
   background-color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 600;
   padding: 21.5px 0;
@@ -100,7 +97,7 @@ body {
 }
 
 .apresentacao__link--transparente:hover {
-  background-color: var(--cor-hover)
+  background-color: #272727;
 }
 
 .apresentacao__link--transparente .fa-brands {
@@ -116,7 +113,7 @@ body {
 }
 
 .rodape {
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   color: var(--cor-primaria);

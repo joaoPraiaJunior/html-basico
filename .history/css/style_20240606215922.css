@@ -116,7 +116,7 @@ body {
 }
 
 .rodape {
-  font-family: var(--font-secundaria);
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   color: var(--cor-primaria);
