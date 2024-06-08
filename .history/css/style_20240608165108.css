@@ -142,18 +142,6 @@ body {
   .apresentacao__texto {
     font-size: 2rem;
   }
-
-  .apresentacao__subtitulo {
-    font-size: 2rem;
-  }
-
-  .apresentacao__link {
-    font-size: 1.8rem;
-  }
-
-  .rodape {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -174,3 +162,4 @@ body {
     width: auto;
   }
 }
+
